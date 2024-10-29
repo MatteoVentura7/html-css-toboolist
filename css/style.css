@@ -89,6 +89,14 @@ main {
     background-color: #FF9B00;
 }
 
+.tag-fuxia {
+    background-color: #EC4A9D;
+}
+
+.tag-lime {
+    background-color: #A3D116;
+}
+
 ul {
     list-style: none;
 }
