@@ -22,16 +22,19 @@
 <!--main-->
     <main>
 <!--button-->
-        <button class="btn btn-blue">Add Task</button>
-        <button class="btn btn-grey">Add Section</button>
+        <div class="buttons-list">
+            <button class="btn btn-blue">Add Task</button>
+            <button class="btn btn-grey">Add Section</button>
+        </div>
 <!-- fine button--> 
-<br><br>
+<div class="section-tasks">
+    <section class="tasks">
 <!--prima section-->
         <section>
             <h2 class="title">&#9207; New Task</h2>
-            <br>
+            <br>            
             <ul>
-                <li>
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Quarterly Newsletter
                     <span class="tag tag-azure "> Editorial</span>
@@ -39,31 +42,31 @@
             </ul>
         </section>
 <!--fine prima section-->
-<br>
+
 <!--seconda section-->
         <section>
             <h2 class="title">&#9207; Today</h2>
             <br>
             <ul>
-                <li>
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Recruiting blog post
                     <span class="tag tag-azure "> Editorial</span>
                 </li>
-<br>
-                <li>
+
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Mobile app luaunch
                     <span class="tag tag-purple "> Q1 Goals</span>
                 </li>
-<br>
-                <li>
+
+                <li class="task">
                     <span class="circle-red">&times;</span>
                     &ensp;Interview John H.
                     <span class="tag tag-green "> Recruiting</span>
                 </li>
-<br>
-                <li>
+
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Summit uptade to mobile storefronts
                     <span class="tag tag-orange "> Mobile</span>
@@ -77,24 +80,24 @@
             <h2 class="title">&#9207; Upcoming</h2>
             <br>
             <ul>
-                <li>
+                <li class="task">
                     <span class="circle-red">&times;</span>
                     &ensp;schedule meeting with Alex
                     
                 </li>
-<br>
-                <li>
+
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Homepage refresh
                     <span class="tag tag-fuxia "> Q1 Goals</span>
                 </li>
-<br>
-                <li>
+
+                <li class="task">
                     <span class="circle-green">&check;</span>
                     &ensp;Onboard new Sales team membres
                     <span class="tag tag-lime "> Recruiting</span>
-                </li>
-<br>
+                </li class="task">
+
                 <li>
                     <span class="circle-green">&check;</span>
                     &ensp;Review editorial calendar
@@ -102,6 +105,7 @@
                 </li>
             </ul>
         </section>
+    </div>
 <!--fine terza section-->
     </main>
 <!--fine main-->
